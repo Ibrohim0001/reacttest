@@ -1,13 +1,15 @@
 import React from "react";
-
-class App extends React.Component{
-  render(){
-    return(
+import Sfunction from "./Sfunction";
+class App extends React.Component {
+  render() {
+    return (
       <div>
-        App Component
+     <Sfunction />
+     <Sfunction />
+     <Sfunction />
+     <Sfunction />
       </div>
-
-    ) 
+    );
   }
 }
-export default App
+export default App;
